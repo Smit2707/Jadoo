@@ -26,15 +26,15 @@ const Header = () => {
                             </svg>
                         </button>
                     </div>
-                    <ul className='hidden md:w-[70%] md:flex md:justify-between md:items-center px-2 py-3 font-medium text-md'>
-                        <li><a href="#" className='text-black hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Destinations</a></li>
-                        <li><a href="#" className='text-black hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Hotels</a></li>
-                        <li><a href="#" className='text-black hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Flights</a></li>
-                        <li><a href="#" className='text-black hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Bookings</a></li>
-                        <li><a href="#" className='text-black hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Login</a></li>
-                        <li><a href="#" className='text-black hover:text-orange-400 duration-300 ease-in-out px-5 py-2 border-[1px] border-black rounded-md hover:border-orange-400 text-center'>Signup</a></li>
+                    <ul className='hidden md:w-[70%] md:flex md:justify-end md:items-center px-2 py-3 md:gap-6 font-medium text-md'>  
+                        <li><a href="#" className='text-black md:text-sm hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Destinations</a></li>
+                        <li><a href="#" className='text-black md:text-sm hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Hotels</a></li>
+                        <li><a href="#" className='text-black md:text-sm hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Flights</a></li>
+                        <li><a href="#" className='text-black md:text-sm hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Bookings</a></li>
+                        <li><a href="#" className='text-black md:text-sm hover:text-orange-400 duration-300 ease-in-out px-5 py-2'>Login</a></li>
+                        <li><a href="#" className='text-black md:text-sm hover:text-orange-400 duration-300 ease-in-out px-5 py-2 border-[1px] border-black rounded-md hover:border-orange-400 text-center'>Signup</a></li>
                         <div>
-                            <select className='border-none outline-none bg-transparent px-2 py-1 hover:text-orange-400 duration-300 ease-in-out cursor-pointer' name="Language" id="cars">
+                            <select className='border-none outline-none bg-transparent px-2 md:text-sm py-1 hover:text-orange-400 duration-300 ease-in-out cursor-pointer' name="Language" id="cars">
                                 <option value="english">English</option>
                                 <option value="french">French</option>
                                 <option value="hindi">Hindi</option>

@@ -17,7 +17,7 @@ const Card2 = ({ image, city, country, price, duration }) => {
             <div className='p-5 space-y-4'>
                 {/* Location and Price Row */}
                 <div className='flex justify-between items-center'>
-                    <h3 className='text-sm font-medium text-gray-800'>{city}, {country}</h3>
+                    <h3 className='text-sm md:text-base font-medium text-gray-800'>{city}, {country}</h3>
                     <span className='font-semibold text-gray-800'>${price}k</span>
                 </div>
                 

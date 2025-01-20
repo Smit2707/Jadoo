@@ -29,18 +29,18 @@ const testimonials = [
 ];
 
 const TestimonialCard = ({ testimonial, isActive }) => (
-    <div className={`bg-white rounded-2xl p-6 sm:p-8 shadow-lg transition-all duration-300 transform 
+    <div className={`bg-white rounded-2xl p-6 sm:p-8 shadow-lg transition-all sm:w-[400px] duration-300 transform
         ${isActive ? 'scale-100 opacity-100' : 'scale-95 opacity-40'}`}>
         <div className="flex flex-col items-center sm:items-start sm:flex-row gap-6">
             <div className="shrink-0">
                 <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name} 
+                    src={testimonial.image}
+                    alt={testimonial.name}
                     className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover"
                 />
             </div>
             <div className="flex flex-col space-y-4 text-center sm:text-left">
-                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                <p className="text-gray-600 text-sm sm:text-sm leading-relaxed">
                     "{testimonial.quote}"
                 </p>
                 <div>
@@ -52,7 +52,7 @@ const TestimonialCard = ({ testimonial, isActive }) => (
     </div>
 );
 
-const Page5 = () => {
+const Testimonials = () => {
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
     const nextTestimonial = () => {
@@ -68,7 +68,7 @@ const Page5 = () => {
     };
 
     return (
-        <div className="min-h-[fit-content] bg-gray-50 py-12 sm:py-16 lg:py-20 lg:flex lg:items-center px-4 sm:px-6 lg:px-8">
+        <div className="min-h-[50vh] bg-gray-50 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                     <div className="space-y-6 text-center lg:text-left">
@@ -91,7 +91,7 @@ const Page5 = () => {
                         </div>
                     </div>
                     <div className="relative">
-                        <div className="absolute -right-4 -top-12 flex gap-4 z-20">
+                        <div className="absolute -right-12 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-20">
                             <button
                                 onClick={previousTestimonial}
                                 className="p-2 rounded-full bg-white shadow-lg hover:bg-gray-50 transition-colors"
@@ -132,4 +132,4 @@ const Page5 = () => {
     );
 };
 
-export default Page5; 
+export default Testimonials; 

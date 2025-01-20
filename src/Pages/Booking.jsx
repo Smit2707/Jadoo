@@ -6,14 +6,14 @@ const EasyStep = ({ icon, title, description }) => (
             {icon.component}
         </div>
         <div className="space-y-2">
-            <h3 className="text-lg font-semibold text-[#14183E]">{title}</h3>
-            <p className="text-sm text-gray-500 max-w-[350px]">{description}</p>
+            <h3 className="text-lg md:text-xl font-semibold text-[#14183E]">{title}</h3>
+            <p className="text-sm md:text-sm text-gray-500 max-w-[350px]">{description}</p>
         </div>
     </div>
 );
 
 const TripCard = () => (
-    <div className="bg-white rounded-3xl p-4 shadow-xl max-w-[400px]">
+    <div className="bg-white rounded-3xl p-4 border-[1px] shadow-xl border-grey-200 max-w-[400px]">
         <img 
             src="/assets/image12.png" 
             alt="Trip to Greece" 
@@ -57,7 +57,7 @@ const Page4 = () => {
                 <div className="space-y-12 ">
                     <div className="space-y-4">
                         <span className="text-gray-500 md:text-start md:inline inline-block w-full text-start">Easy and Fast</span>
-                        <h2 className="text-4xl md:text-5xl font-bold text-[#14183E] leading-tight md:text-start text-start">
+                        <h2 className="text-4xl md:text-4xl font-bold text-[#14183E] leading-tight md:text-start text-start">
                             Book Your Next Trip In 3 Easy Steps
                         </h2>
                     </div>
