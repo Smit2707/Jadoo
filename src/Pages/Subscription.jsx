@@ -7,7 +7,7 @@ const Subscription = () => {
         <img className="absolute hidden md:block bottom-0 left-[0%] z-[0] opacity-[0.1]" src="./public/assets/curve.png" alt="" />
         <img className="absolute hidden md:block right-[0%] top-0 z-[1]" src="./public/assets/cr2.png" alt="" />
       {/* Send icon in top-right of parent div */}
-      <div className="absolute -top-6 right-8">
+      <div className="absolute -top-6 right-0">
         <div className="w-12 h-12 bg-[#8167f4] rounded-full flex items-center justify-center">
           <IoMdSend className="text-white text-xl" />
         </div>
@@ -15,7 +15,7 @@ const Subscription = () => {
 
       {/* Content */}
       <div className="space-y-8 max-w-3xl">
-        <h2 className="text-[#5E6282] text-xl sm:text-2xl text-center max-w-2xl mx-auto font-semibold leading-normal">
+        <h2 className="text-[#5E6282] text-xl sm:text-3xl text-center max-w-2xl mx-auto font-semibold leading-normal">
           Subscribe to get information, latest news and other interesting offers about Jadoo
         </h2>
 

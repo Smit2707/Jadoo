@@ -44,8 +44,8 @@ const TestimonialCard = ({ testimonial, isActive }) => (
                     "{testimonial.quote}"
                 </p>
                 <div>
-                    <h4 className="text-lg font-semibold text-[#14183E]">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.location}</p>
+                    <h4 className="text-base font-semibold text-[#14183E]">{testimonial.name}</h4>
+                    <p className="text-xs text-gray-500">{testimonial.location}</p>
                 </div>
             </div>
         </div>
@@ -68,14 +68,14 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="min-h-[50vh] bg-gray-50 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-[50vh] w-[75%] mx-auto bg-gray-50 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                     <div className="space-y-6 text-center lg:text-left">
                         <span className="text-sm sm:text-base text-gray-500 uppercase tracking-wider">
                             TESTIMONIALS
                         </span>
-                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#14183E] leading-tight">
+                        <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-[#14183E] leading-tight">
                             What People Say<br />About Us.
                         </h2>
                         <div className="flex justify-center lg:justify-start gap-3">
@@ -91,7 +91,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="relative">
-                        <div className="absolute -right-12 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-20">
+                        <div className="absolute -right-5 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-20">
                             <button
                                 onClick={previousTestimonial}
                                 className="p-2 rounded-full bg-white shadow-lg hover:bg-gray-50 transition-colors"
