@@ -30,7 +30,7 @@ const Page2 = () => {
         <div className='w-full py-16 px-4 sm:px-6 lg:px-8 relative'>
             <img 
                 className='hidden lg:block absolute h-24 w-24 lg:h-32 lg:w-32 right-0 top-[10%]' 
-                src="./src/assets/Group4.png" 
+                src="/assets/Group4.png" 
                 alt="" 
             />
             
