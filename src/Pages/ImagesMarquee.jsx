@@ -9,7 +9,7 @@ const Section = () => {
           
           <div className='flex justify-center items-center p-4'>
             <img 
-              src="/assets/image 27.png" 
+              src="./src/assets/image 27.png" 
               alt="Axon" 
               className='h-18 sm:h-10 lg:h-28 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300'
             />
@@ -17,7 +17,7 @@ const Section = () => {
 
           <div className='flex justify-center items-center p-4'>
             <img 
-              src="/assets/image 28.png" 
+              src="./src/assets/image 28.png" 
               alt="Jetstar" 
               className='h-18 sm:h-10 lg:h-28 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300'
             />
@@ -25,7 +25,7 @@ const Section = () => {
 
           <div className='flex justify-center items-center p-4'>
             <img 
-              src="/assets/image 29.png" 
+              src="./src/assets/image 29.png" 
               alt="Expedia" 
               className='h-18 sm:h-10 lg:h-28 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300'
             />
@@ -33,7 +33,7 @@ const Section = () => {
 
           <div className='flex justify-center items-center p-4'>
             <img 
-              src="/assets/image 30.png" 
+              src="./src/assets/image 30.png" 
               alt="Qantas" 
               className='h-8 sm:h-10 lg:h-12 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300'
             />
@@ -41,7 +41,7 @@ const Section = () => {
 
           <div className='flex justify-center items-center p-4 col-span-2 sm:col-span-1'>
             <img 
-              src="/assets/image 31.png" 
+              src="./src/assets/image 31.png" 
               alt="Alitalia" 
               className='h-8 sm:h-10 lg:h-12 w-auto object-contain opacity-50 hover:opacity-100 transition-opacity duration-300'
             />

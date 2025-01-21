@@ -30,7 +30,7 @@ const Page2 = () => {
         <div className='w-full py-16 px-4 sm:px-6 lg:px-8 relative'>
             <img 
                 className='hidden lg:block absolute h-24 w-24 lg:h-32 lg:w-32 right-0 top-[10%]' 
-                src="./public/assets/Group4.png" 
+                src="./src/assets/Group4.png" 
                 alt="" 
             />
             
@@ -68,7 +68,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="/assets/Group48.png" 
+                            img="./src/assets/Group48.png" 
                             title="Calculated Weather" 
                             desc="Built Wicket longer admire do barton vanity itself do in it."
                         />
@@ -83,7 +83,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="/assets/Group 49.png" 
+                            img="./src/assets/Group 49.png" 
                             title="Best Flights" 
                             desc="Engrossed listening. Park gate sell they west hard for the."
                         />
@@ -98,7 +98,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="/assets/Group 50.png" 
+                            img="./src/assets/Group 50.png" 
                             title="Local Events" 
                             desc="Barton vanity itself do in it. Preferd to men it engrossed listening."
                         />
@@ -113,7 +113,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="/assets/Group 51.png" 
+                            img="../src/assets/Group 51.png" 
                             title="Customization" 
                             desc="We deliver outsourced aviation services for military customers"
                         />

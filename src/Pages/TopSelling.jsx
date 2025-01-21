@@ -6,7 +6,7 @@ const Page3 = () => {
         <div className='w-full py-16 px-4 sm:px-6 lg:px-8 relative'>
             <img 
                 className='hidden lg:block absolute right-0 top-1/3 h-[150px] sm:h-[200px]' 
-                src="/assets/Decore2.png" 
+                src="./src/assets/Decore2.png" 
                 alt="" 
             />
             
@@ -26,7 +26,7 @@ const Page3 = () => {
                         country="India" 
                         price="100" 
                         duration="10" 
-                        image="/assets/desc1.png" 
+                        image="./src/assets/desc1.png" 
                     />
                 </div>
                 <div className='w-full flex justify-center'>
@@ -35,7 +35,7 @@ const Page3 = () => {
                         country="UK" 
                         price="100" 
                         duration="12" 
-                        image="/assets/desc2.png" 
+                        image="./src/assets/desc2.png" 
                     />
                 </div>
                 <div className='w-full flex justify-center'>
@@ -44,7 +44,7 @@ const Page3 = () => {
                         country="Europe" 
                         price="100" 
                         duration="15" 
-                        image="/assets/desc3.png" 
+                        image="./src/assets/desc3.png" 
                     />
                 </div>
                 <div className='w-full flex justify-center'>
@@ -53,7 +53,7 @@ const Page3 = () => {
                         country="UK" 
                         price="100" 
                         duration="12" 
-                        image="/assets/desc2.png" 
+                        image="./src/assets/desc2.png" 
                     />
                 </div>
             </div>

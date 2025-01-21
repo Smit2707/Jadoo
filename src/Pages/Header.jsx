@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import decore from './assets/Decore.png'
+import decore from '/src/assets/Decore.png'
 const Header = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -17,7 +17,7 @@ const Header = () => {
                     <img className='absolute z-[-1] top-0 right-0 md:right-0 sm:w-[400px] md:w-[50%] md:h-[80%] md:object-cover md:object-bottom' src={decore} alt="" />
 
                     {/* logo */}
-                    <img className='h-8 w-22 object-cover' src="./assets/Logo.png"  alt="logo" />
+                    <img className='h-8 w-22 object-cover' src="./src/assets/Logo.png"  alt="logo" />
                     {/* right nav */}
                     <div className="md:hidden">
                         <button className='text-black' onClick={toggleMenu}>

@@ -8,14 +8,14 @@ const Subscription = () => {
     <div className="w-full min-h-[40vh] relative">
       
       <div className="max-w-[1300px] mx-auto bg-[#DFD7F9] bg-opacity-20 rounded-[20px] py-[78px] px-8 relative">
-      <img className="absolute hidden md:block bottom-0 left-[0%] z-[0] opacity-[0.1]" src="./public/assets/curve.png" alt="" />
-      <img className="absolute hidden md:block right-[0%] top-0 z-[1]" src="./public/assets/cr2.png" alt="" />
+      <img className="absolute hidden md:block bottom-0 left-[0%] z-[0] opacity-[0.1]" src="./src/assets/curve.png" alt="" />
+      <img className="absolute hidden md:block right-[0%] top-0 z-[1]" src="./src/assets/cr2.png" alt="" />
         {/* Send icon in top-right corner */}
         <div className="absolute -top-6 -right-8">
           <div className="w-[70px] h-[70px] bg-gradient-to-r from-violet-500 to-violet-400 hidden md:block rounded-full md:flex items-center justify-center relative">
             {/* <IoMdSend className="text-white text-3xl" /> */}
             {/* <FaLocationArrow className="text-white text-3xl" /> */}
-            <img className='h-11 w-11 text-white absolute right-3 top-3' src="./public/assets/send.png" alt="" />
+            <img className='h-11 w-11 text-white absolute right-3 top-3' src="./src/assets/send.png" alt="" />
 
           </div>
         </div>
