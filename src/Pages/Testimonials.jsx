@@ -12,18 +12,18 @@ const testimonials = [
     },
     {
         id: 2,
-        image: "/assets/MaskGroup2.png",
+        image: "/assets/MaskGroup.png",
         quote: "Great experience with the team. The travel arrangements were perfect and the service was excellent.",
         name: "Chris Thomas",
-        location: "CEO of Red Button",
+        location: "California",
         role: "New York, USA"
     },
     {
         id: 3,
-        image: "/assets/MaskGroup3.png",
+        image: "/assets/MaskGroup.png",
         quote: "Wonderful destinations and very professional service. Would definitely recommend to others.",
-        name: "Sarah Johnson",
-        location: "London, UK",
+        name: "Amit Joshi",
+        location: "Delhi, India",
         role: "Travel Enthusiast"
     }
 ];
@@ -68,7 +68,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="min-h-[50vh] w-[75%] mx-auto bg-gray-50 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-[50vh] w-full md:w-[75%] mx-auto bg-gray-50 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                     <div className="space-y-6 text-center lg:text-left">
