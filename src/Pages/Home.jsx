@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaPlay } from "react-icons/fa";
 import { IoPlayOutline } from "react-icons/io5";
+// import abc from "../assets/Traveller 1.png"
 
 import Button from '../Components/Button'
 
@@ -36,12 +37,12 @@ const Page1 = () => {
       <div className="right w-full lg:w-1/2 relative h-[300px] sm:h-[400px] lg:h-full mt-8 lg:mt-0">
         <img
           className='absolute hidden lg:block lg:right-[50%] lg:h-56 lg:w-56 animate-pulse'
-          src="./src/assets/plane.png"
+          src="/assets/plane.png"
           alt="plane"
         />
         <img
           className='w-full h-full object-contain px-4 sm:px-8 lg:absolute lg:h-[700px] lg:top-[8%] lg:right-1/5 lg:object-cover'
-          src="./src/assets/Traveller 1.png"
+          src="/assets/Traveller 1.png"
           alt="traveller"
         />
       </div>

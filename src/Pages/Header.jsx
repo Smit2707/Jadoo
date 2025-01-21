@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import decore from '/src/assets/Decore.png'
+import decore from '/assets/Decore.png'
 import logo from '/Jadoo.png';
 const Header = () => {
 

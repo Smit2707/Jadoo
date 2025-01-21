@@ -62,8 +62,8 @@ const Footer = () => {
             </div>
             <p className='text-sm text-center'>Discover our app</p>
             <div className='flex gap-2'>
-              <img src="./src/assets/Google Play.png" alt="Google Play" className='h-8' />
-              <img src="./src/assets/Play Store.png" alt="App Store" className='h-8' />
+              <img src="./public/assets/Google Play.png" alt="Google Play" className='h-8' />
+              <img src="./public/assets/Play Store.png" alt="App Store" className='h-8' />
             </div>
           </div>
         </div>

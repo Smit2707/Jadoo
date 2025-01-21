@@ -15,7 +15,7 @@ const EasyStep = ({ icon, title, description }) => (
 const TripCard = () => (
     <div className="bg-white rounded-3xl p-4 border-[1px] shadow-xl border-grey-200 max-w-[400px]">
         <img 
-            src="./src/assets/image12.png" 
+            src="/assets/image12.png" 
             alt="Trip to Greece" 
             className="w-full h-[200px] object-cover rounded-2xl"
         />
@@ -28,7 +28,7 @@ const TripCard = () => (
                 <span className="text-gray-500">14-29 June</span>
                 <span className="text-gray-400">|</span>
                 <span className="text-gray-500">by Robbin j</span>
-                <img src="./src/assets/MaskGroup.png" alt="Robbin" className="w-8 h-8 rounded-full ml-auto"/>
+                <img src="/assets/MaskGroup.png" alt="Robbin" className="w-8 h-8 rounded-full ml-auto"/>
             </div>
             <div className="flex items-center gap-4">
                 <div className="flex items-center gap-2">

@@ -68,7 +68,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="./src/assets/Group48.png" 
+                            img="/assets/Group48.png" 
                             title="Calculated Weather" 
                             desc="Built Wicket longer admire do barton vanity itself do in it."
                         />
@@ -83,7 +83,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="./src/assets/Group 49.png" 
+                            img="/assets/Group 49.png" 
                             title="Best Flights" 
                             desc="Engrossed listening. Park gate sell they west hard for the."
                         />
@@ -98,7 +98,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="./src/assets/Group 50.png" 
+                            img="/assets/Group 50.png" 
                             title="Local Events" 
                             desc="Barton vanity itself do in it. Preferd to men it engrossed listening."
                         />
@@ -113,7 +113,7 @@ const Page2 = () => {
                              resetRedBlock();
                          }}>
                         <Card 
-                            img="../src/assets/Group 51.png" 
+                            img="/assets/Group 51.png" 
                             title="Customization" 
                             desc="We deliver outsourced aviation services for military customers"
                         />
