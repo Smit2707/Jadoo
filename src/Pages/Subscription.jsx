@@ -11,7 +11,7 @@ const Subscription = () => {
       <img className="absolute hidden md:block bottom-0 left-[0%] z-[0] opacity-[0.1]" src="./public/assets/curve.png" alt="" />
       <img className="absolute hidden md:block right-[0%] top-0 z-[1]" src="./public/assets/cr2.png" alt="" />
         {/* Send icon in top-right corner */}
-        <div className="absolute -top-6 -right-8">
+        <div className="absolute -top-6 right-6">
           <div className="w-[70px] h-[70px] bg-gradient-to-r from-violet-500 to-violet-400 hidden md:block rounded-full md:flex items-center justify-center relative">
             {/* <IoMdSend className="text-white text-3xl" /> */}
             {/* <FaLocationArrow className="text-white text-3xl" /> */}

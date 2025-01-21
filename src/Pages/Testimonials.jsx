@@ -68,7 +68,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="min-h-[50vh] w-full md:w-[75%] mx-auto bg-gray-50 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-[50vh] w-full md:w-[85%] mx-auto bg-gray-50 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                     <div className="space-y-6 text-center lg:text-left">
@@ -91,7 +91,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="relative">
-                        <div className="absolute -right-5 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-20">
+                        <div className="absolute -right-0 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-20">
                             <button
                                 onClick={previousTestimonial}
                                 className="p-2 rounded-full bg-white shadow-lg hover:bg-gray-50 transition-colors"
