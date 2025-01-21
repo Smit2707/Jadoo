@@ -12,10 +12,10 @@ const Subscription = () => {
       <img className="absolute hidden md:block right-[0%] top-0 z-[1]" src="./public/assets/cr2.png" alt="" />
         {/* Send icon in top-right corner */}
         <div className="absolute -top-6 -right-8">
-          <div className="w-[70px] h-[70px] bg-gradient-to-r from-violet-500 to-violet-400 hidden md:block rounded-full md:flex items-center justify-center">
+          <div className="w-[70px] h-[70px] bg-gradient-to-r from-violet-500 to-violet-400 hidden md:block rounded-full md:flex items-center justify-center relative">
             {/* <IoMdSend className="text-white text-3xl" /> */}
             {/* <FaLocationArrow className="text-white text-3xl" /> */}
-            <img className='h-11 w-11 text-white' src="./public/assets/send.png" alt="" />
+            <img className='h-11 w-11 text-white absolute right-3 top-3' src="./public/assets/send.png" alt="" />
 
           </div>
         </div>
