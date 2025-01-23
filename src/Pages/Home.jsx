@@ -8,12 +8,12 @@ import Button from '../Components/Button'
 const Page1 = () => {
   return (
     <div className='min-h-[80vh] mt-10  w-full flex-col md:flex lg:flex-row px-4 sm:px-6 lg:px-8'>
-      <div className='left w-full lg:w-1/2 flex flex-col md:justify-start md:gap-2 space-y-6 py-8 lg:py-20'>
+      <div className='left w-full lg:w-1/2 flex flex-col md:justify-start md:gap-1 space-y-6 py-8 lg:py-20'>
         <h3 className='text-base sm:text-lg lg:text-2xl font-semibold text-center lg:text-start text-orange-600'>
           Best Destinations around the world
         </h3>
         <div>
-          <h1 className='mb-2 w-[90%] text-[#030000] text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center lg:text-start font-bold'>
+          <h1 className='mb-2 w-[90%] text-[#030000] text-3xl sm:text-4xl md:text-5xl lg:text-[62px] text-center lg:text-start font-bold'>
             {/* Travel,
             <p className='text-orange-600 font-extrabold pb-2 mx-2'>Enjoy</p>
             and live a */}
