@@ -32,7 +32,7 @@ const Header = () => {
                     {/* Mobile/Tablet menu button - Show on all screens except large */}
                     <div className="block xl:hidden">
                         <button 
-                            className='text-black hover:bg-gray-100 p-2 rounded-md'
+                            className='text-black p-2 rounded-md'
                             onClick={toggleMenu}
                         >
                             <svg 
